@@ -1,0 +1,28 @@
+/* 
+color : #1C2B35 #ff9900
+
+
+
+*/
+
+.header-nav {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+}
+
+.header-nav div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 10px;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+.header-nav div a:hover {
+    color: #ff9900;
+}
